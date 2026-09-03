@@ -5,7 +5,7 @@ namespace SharePointDownloaderApp.UI
 {
     public class DownloadJob : IJob
     {
-        public static Action<string> OnLogGenerated;
+        public static Action<string>? OnLogGenerated;
 
         public async Task Execute(IJobExecutionContext context)
         {

@@ -9,7 +9,7 @@ namespace SharePointDownloaderApp.UI
 {
     public partial class MainWindow : Window
     {
-        private IScheduler _scheduler;
+        private IScheduler? _scheduler;
         private readonly FileDownloaderService _downloaderService;
 
         public MainWindow()
